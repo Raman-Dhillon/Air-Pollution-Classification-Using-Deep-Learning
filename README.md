@@ -37,6 +37,11 @@ The system classifies images into six AQI categories by learning visual pollutio
 - Visualized class distribution and sample predictions.
 - Plotted training vs validation accuracy and loss curves.
 - Generated confusion matrices and multi-class ROC curves.
+# 🔹 Model-wise Results
+## Custom CNN (Baseline)
+
+## GoogLeNet (Inception v3) – Best Performing Model
+
 # 🔹 Technologies Used
 - Python
 - TensorFlow / Keras
