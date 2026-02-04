@@ -39,15 +39,24 @@ The system classifies images into six AQI categories by learning visual pollutio
 - Generated confusion matrices and multi-class ROC curves.
 # 🔹 Model-wise Results
 ## Custom CNN (Baseline)
-
+![Air-Pollution-Classification-Using-Deep-Learning](/CNNconfusionmatrix.png)
+![Air-Pollution-Classification-Using-Deep-Learning](/CNNgraph.png)
 ## GoogLeNet (Inception v3) – Best Performing Model
-
+![Air-Pollution-Classification-Using-Deep-Learning](/googlenetconfusionmatrix.png)
+![Air-Pollution-Classification-Using-Deep-Learning](/googlenetgraph.png)
 # 🔹 Technologies Used
 - Python
 - TensorFlow / Keras
 - NumPy, Pandas
 - Matplotlib, Seaborn
 - Scikit-learn
+# 📈 Performance Comparison
+ | Model        | Train Accuracy | Validation Accuracy |
+|--------------|----------------|---------------------|
+| Custom CNN   | 92.35%         | 90%                 |
+| ResNet50    | 96.84%         | 91%                 |
+| Inception v3| 95.75%         | 93%              |
+
 # 🔹 How to Run
 - Clone the repository.
 - Open airpollutionV2.ipynb in Jupyter Notebook or Google Colab.
